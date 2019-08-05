@@ -5,8 +5,22 @@ Sets up environment variable for peer binary
 
 show-env.sh
 Shows the values set in environment vars
+
 Peer binary commands
 Execution requires
 Identity context setup
 Requires peers and orderers address(Provided in core.yaml or with env variables)
+source set-env.sh acme|budget
+
+Peers chaincode commands
+peer channel list
+List the channels peer has joined
+
+peer channel getinfo -c airlinechannel
+Gets the info about the blockchain
+
+peer chaincode list --installed
+Lists the chaincode installed on peer
+
+peer chaincode list --instantiated -c airlinechannel
 
