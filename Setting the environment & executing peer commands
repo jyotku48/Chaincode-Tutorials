@@ -1,0 +1,11 @@
+Setting the org context
+
+set-env.sh
+Sets up environment variable for peer binary
+
+show-env.sh
+Shows the values set in environment vars
+Peer binary commands
+Execution requires
+Identity context setup
+Requires peers and orderers address(Provided in core.yaml or with env variables)
