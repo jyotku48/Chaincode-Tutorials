@@ -1,0 +1,22 @@
+Installation of chaincode onto the peer
+Initialize the dev enviornment
+dev-init.sh
+
+Setup the env context
+.set-env.sh acme
+
+Setup arguments for install
+set-chain-env.sh -n gocc -v 1.0 -p chaincode-example02
+
+Install the chaincode
+chain.sh install
+
+Confirm the installation
+chain.sh list
+
+Instantiating the chaincode
+set-chain-env.sh -c '{"Args":["init","a","100","b","100"]}'
+
+chain.sh instantiate
+
+chain.sh list
