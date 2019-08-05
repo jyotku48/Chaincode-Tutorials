@@ -1,6 +1,28 @@
 HAnds on utility script for managing deve environment
+
 dev-init.sh
 ->Generates the crypto material
 ->Generates the configuration artifacts
 Launches multiple containers based on arguments
 Setup airline channel; environment ready to use
+-h Shows help
+-d Launches peers in DEV mode
+-c Launches the CLI/tools containers
+-s setups peers DB as COUCH DB
+-e Launches the HyperLedger Explorer container
+Resets the dev environment; Ledger data will be lost.
+
+dev-validate.sh
+Use skip argument for executing multiple times
+
+dev-stop.sh
+Is non-destructive i.e the state may be restored
+
+dev-start.sh
+starts the dev environment without losing the state
+
+check all containers
+docker ps
+
+check logs
+docker logs nameofdocker
