@@ -1,0 +1,17 @@
+Check env context
+show-env.sh
+
+Check chaincode list
+chain.sh list
+
+Set environment variables
+set-chain-env.sh -q '{"Args":["query","a"]}'
+
+Query the chaincode
+chain.sh query
+
+Invoke chaincode
+set-chain-env.sh -i '{"Args":["invoke","a","b","5"]}'
+
+chain.sh invoke
+chain.sh query
