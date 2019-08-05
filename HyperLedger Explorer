@@ -1,0 +1,19 @@
+A project under the Hyperledger umbrella
+Utility for viewing activities|Ststus of Fabric network
+A standalone web application
+
+The status of
+node status
+nodes
+Blocks 
+Transactions
+Chaincode 
+Channels
+
+Hperledger explorer requires access to crypto network material and uses a database
+dev-init -e
+
+Hyperledger Explorer Scripts
+exp-init.sh Resets the explorer runtime
+exp-stop.sh Stops the explorer runtime
+exp-start.sh Starts the explorer runtime
