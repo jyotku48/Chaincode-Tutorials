@@ -1,0 +1,33 @@
+Download Visual Studio Code.
+https://code.visualstudio.com/download
+Install Virtual Box
+https://www.virtualbox.org/wiki/Downloads
+**Install prerequisite & Fabric
+Go,Docker,Docker Compose
+HLF-GO-DEV-CHAINCODE-v1.4x-->network-->setup
+cd network/setup
+chomd u+x *.sh
+./install-prereqs.sh
+Validate
+./validate-prereqs.sh
+**Install Fabric Binaries
+sudo -E ./install-fabric.sh
+Validate
+./validate-fabric.sh
+**Install Fabric CA server
+./install-caserver.sh
+Validate
+./validate-caserver.sh
+Install the Development environmentTools
+**Install GoTools
+./install-gotools.sh
+Validate
+govendor -h
+**Install HyperLedger Explorer
+./install-explorer.sh
+Validate
+./validate-explorer.sh
+**Install NodeJS+DEV Utilites
+./install-node-utils.sh
+Validate
+node -v
