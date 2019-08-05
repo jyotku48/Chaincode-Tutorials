@@ -1,0 +1,14 @@
+Setup the version
+set-chain-env.sh -v 2.0
+
+Install the chaincode
+chain.sh install
+
+Upgrade the chaincode
+chain.sh upgrade
+
+List
+chain.sh list
+
+or
+chain.sh upgrade-auto
