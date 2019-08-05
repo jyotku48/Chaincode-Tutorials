@@ -1,0 +1,6 @@
+HAnds on utility script for managing deve environment
+dev-init.sh
+->Generates the crypto material
+->Generates the configuration artifacts
+Launches multiple containers based on arguments
+Setup airline channel; environment ready to use
