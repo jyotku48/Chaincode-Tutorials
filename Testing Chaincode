@@ -1,0 +1,5 @@
+Access log messages
+Displays logs for chaincode container
+cc-test.sh
+Executes the test script for chaincde
+cc-test.sh
